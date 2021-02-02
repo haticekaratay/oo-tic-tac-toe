@@ -1,6 +1,6 @@
 
 require 'pry'
-require_relative '../lib/tic_tac_toe'
+
 class TicTacToe
 
 
@@ -132,6 +132,7 @@ class TicTacToe
     end
 
     def play
+        puts " ----"
         until over?
             turn
         end
